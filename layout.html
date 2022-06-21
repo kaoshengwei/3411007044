@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display:inline-block ;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+        }
+        /* 相對位置 */
+        #box2{
+            position: relative;
+            top:20px;
+            left:20px;
+            background-color: blue;
+        }
+        /* 絕對位置 */
+        #box3{
+            position: absolute;
+            top: 180px;
+            left:20px;
+            background-color: green;
+        }
+
+        /* 浮動 */
+        .title{
+            border: 1px solid;
+            height: 150px;
+        }
+        .left{
+            float: left;
+            background-color: red;
+            width: 50px;
+            height: 150px;
+        }
+        .right{
+            float: right;
+            background-color: blue;
+            width: 50px;
+            height: 150px;
+        }
+        /* z-index */
+        .img{
+            position: absolute;
+            top:0px;
+            left: 0px;
+            z-index: -1;
+        }
+        /* overflow */
+        .overflow{
+            border: 1px solid;
+            height: 100px;
+            width: 200px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <!-- z-index -->
+    <div>
+        123
+        <img class="img" src="https://fakeimg.pl/100x100/">
+    </div>
+    <br><br><br>
+    <br><br><br>
+    <div class="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">box4</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="title">
+        <div class="left">left</div>
+        <div class="right">right</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum nam deserunt voluptas impedit blanditiis dolores itaque incidunt culpa? Voluptates illo numquam nesciunt soluta nisi recusandae assumenda fugit repudiandae reiciendis?
+            Dolorem fugiat veniam ratione consequatur quasi animi velit quos odio distinctio nobis ad enim, illum modi esse maiores autem obcaecati libero nam corrupti iusto possimus quod ea voluptas cupiditate. Reiciendis.
+            Ut soluta laborum illo quas laudantium adipisci. Illo sequi repellat dolor quam dolorem ratione quibusdam sapiente tempore quidem incidunt in, sunt rerum ipsum asperiores inventore porro non labore a nobis!
+            Repudiandae eos perferendis pariatur unde eum. Velit deleniti libero repellat iste asperiores perspiciatis, aperiam ea voluptatem iure aliquam accusantium ducimus distinctio voluptatibus quae quaerat itaque officiis tempora consequatur nam consequuntur.
+        </p>  
+    </div>
+    <br> 
+    <!--ovewflow-->  
+    <div class="overflow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nulla praesentium iste explicabo totam, unde debitis itaque molestias eaque? Sunt porro incidunt ut iste. Iure quaerat non recusandae tempore repudiandae?
+        Veritatis fuga dolor repellendus neque quae error fugiat harum repudiandae, cumque possimus! Laborum facere similique non qui mollitia alias magni iure deserunt repellat, sint distinctio odio! Accusantium id eum repudiandae?
+        Facere adipisci animi quisquam dolore expedita minus delectus consequuntur voluptate ratione? Adipisci, nobis earum voluptate non error soluta et blanditiis laudantium consectetur maxime voluptatem odio dolorem beatae cum eum cupiditate?
+        Corrupti perspiciatis autem asperiores ad ratione, laborum dolorem necessitatibus quidem, ipsa nisi ducimus provident? Consectetur minus veniam ipsum laborum dolore. Nulla rem ipsam quae officia provident iusto, magnam alias illum.
+        Nihil quos praesentium beatae, mollitia itaque ea velit sunt atque vel qui ab repellendus laudantium esse omnis. Voluptatibus, cum culpa repellat id sint incidunt praesentium nihil quae quaerat explicabo voluptatem!
+        Molestiae enim beatae neque tenetur fugiat eaque, vel similique natus repellat ut, et ratione fugit officia amet? Nesciunt odit, nisi, optio necessitatibus nobis doloribus ea cumque consequatur consectetur beatae quibusdam?
+        Odit minus necessitatibus, recusandae, quidem animi, cupiditate exercitationem sint eos enim voluptatibus vero voluptatem nihil ab! Nulla, debitis quae sapiente corrupti animi dicta ipsam voluptates exercitationem sint, autem, molestias nemo?
+        Ipsum at quibusdam nihil! Nobis, quibusdam dignissimos exercitationem, obcaecati qui expedita laudantium tempora dolorum commodi rerum quaerat saepe similique aut a atque nihil, facilis voluptatibus rem. Expedita quidem pariatur molestias.
+        Atque neque ex voluptatum quidem aspernatur ea laboriosam officiis aliquid molestias earum doloribus facere, laudantium repudiandae quod consequuntur saepe id repellat ratione nesciunt sapiente! Quam exercitationem deserunt accusantium tempore aspernatur.
+        Consectetur iusto, ipsum eligendi autem eaque officia facilis esse? Excepturi aliquid, tempore suscipit eos iste cum nesciunt non architecto perspiciatis impedit minus eligendi voluptate nobis a quam maxime! Voluptatem, illum!
+    </div>   
+</body>
+</html>
